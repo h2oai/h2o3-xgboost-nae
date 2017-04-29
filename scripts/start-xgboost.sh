@@ -31,4 +31,4 @@ then
   hdfs_version=""
 fi
 
-java -Xmx${xmxMb}m -jar /opt/h2o3/h2o.jar -name H2ODemo -flatfile flatfile.txt -port 54321 ${hdfs_config_option} ${hdfs_config_value} ${hdfs_option} ${hdfs_option_value} ${hdfs_version}
+java -Xmx${xmxMb}m -jar /opt/h2o3-xgboost/h2o.jar -name H2ODemo -flatfile flatfile.txt -port 54321 ${hdfs_config_option} ${hdfs_config_value} ${hdfs_option} ${hdfs_option_value} ${hdfs_version}
